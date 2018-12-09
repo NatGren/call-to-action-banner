@@ -23,25 +23,43 @@ p {
 }
 
 .banner {
+  max-height: 500px;
+  position: relative;
 }
 
 .placeholder {
+  width: 100%;
+  display: block;
 }
 
 .content {
+  padding: 0 1.5em;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  bottom: 1.75em;
+  transform: translateX(-50%);
 }
 
 .mecha {
+  width: 100%;
 }
 
 .text {
 }
 
 .btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
 }
 
 .btn-big {
+  font-size: 1.5rem;
 }
 
 .btn:hover {
+  background-color: #000;
 }
