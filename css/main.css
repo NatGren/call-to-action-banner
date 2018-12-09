@@ -30,16 +30,20 @@ p {
 .placeholder {
   width: 100%;
   display: block;
+  overflow: hidden;
 }
 
 .content {
-  padding: 0 1.5em;
+  padding: 0;
   width: 100%;
   max-width: 50em;
   position: absolute;
-  left: 50%;
-  bottom: 1.75em;
+  top: 50%;
   transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  left: 60%;
+
 }
 
 .mecha {
@@ -47,6 +51,7 @@ p {
 }
 
 .text {
+  align-items: center;
 }
 
 .btn {
