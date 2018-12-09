@@ -1,7 +1,23 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  display: inline;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
 }
